@@ -9,10 +9,7 @@ FH1206 V02.03.01.35
 ## Vulnerability details
 
 The Tenda FH1206 V02.03.01.35 has a stack overflow vulnerability located in the `fromSafeUrlFilter.`This function accepts the `Go` parameter from a POST request. The statement ` strcpy(v16,v1);` leads to a buffer overflow. The user-supplied `Go` can exceed the capacity of the `v16` array, thus triggering this security vulnerability.
-
-![](https://raw.githubusercontent.com/abcdefg-png/images2/main/屏幕截图 2024-08-02 155515.png)
-
-![](https://raw.githubusercontent.com/abcdefg-png/images2/main/屏幕截图 2024-08-02 155507.png)
+![image-20240802200840516](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240802200840516.png)
 
 ## POC
 
