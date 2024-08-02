@@ -10,7 +10,8 @@ FH1206 V02.03.01.35
 
 The Tenda FH1206 V02.03.01.35 has a stack overflow vulnerability located in the `fromqossetting` function. This function accepts the `qos` parameter from a POST request. The statement `strcpy(v8, src);` leads to a buffer overflow. The user-supplied `qos` can exceed the capacity of the `v8` array, thus triggering this security vulnerability.
 
-![](https://raw.githubusercontent.com/abcdefg-png/images2/main/屏幕截图 2024-08-01 222017.png)
+![image](https://github.com/user-attachments/assets/a51662f9-763f-47ff-8978-d8e88fc4f430)
+
 
 ## POC
 
