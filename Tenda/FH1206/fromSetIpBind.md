@@ -9,10 +9,8 @@ FH1206 V02.03.01.35
 ## Vulnerability details
 
 The Tenda FH1206 V02.03.01.35 has a stack overflow vulnerability located in the `fromSetIpBind` function. This function accepts the `page` parameter from a POST request. The statement `sprintf(v8, "arp_bind.asp?page=%s", v2);` leads to a buffer overflow. The user-supplied `page` can exceed the capacity of the `v8` array, thus triggering this security vulnerability.
+![image](https://github.com/user-attachments/assets/6a78f974-4fb5-42ef-8b71-583d7556ba0d)
 
-![](https://raw.githubusercontent.com/abcdefg-png/images2/main/屏幕截图 2024-08-02 161610.png)
-
-![](https://raw.githubusercontent.com/abcdefg-png/images2/main/屏幕截图 2024-08-02 161522.png)
 
 ## POC
 
