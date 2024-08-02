@@ -10,7 +10,8 @@ FH1206 V02.03.01.35
 
 The Tenda FH1206 V02.03.01.35 has a stack overflow vulnerability located in the `fromqossetting` function. This function accepts the `page` parameter from a POST request. The statement `sprintf(v7, "qos_list.asp?page=%s", v4);` leads to a buffer overflow. The user-supplied `page` can exceed the capacity of the `v7` array, thus triggering this security vulnerability.
 
-![](https://raw.githubusercontent.com/abcdefg-png/images2/main/屏幕截图 2024-08-01 221554.png)
+![image](https://github.com/user-attachments/assets/e3cff71c-8b6a-4e16-b40c-5eeef7645cc0)
+
 
 ```python
 import requests
