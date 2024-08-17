@@ -1,7 +1,7 @@
 # AHU-IoT-vulnerable
 
-- [Tenda Vulnerabilities](https://github.com/TTTJJJWWW/AHU-IoT-vulnerable/edit/main/README.md#Tenda Vulnerabilities)
-- [TOTOLINK Vulnerabilities](https://github.com/TTTJJJWWW/AHU-IoT-vulnerable/edit/main/README.md#TOTOLINK Vulnerabilities)
+- [Tenda Vulnerabilities](https://github.com/TTTJJJWWW/AHU-IoT-vulnerable/edit/main/README.md#Tenda-Vulnerabilities)
+- [TOTOLINK Vulnerabilities](https://github.com/TTTJJJWWW/AHU-IoT-vulnerable/edit/main/README.md#TOTOLINK-Vulnerabilities)
 
 ## Tenda Vulnerabilities
 In 2024, our team discovered vulnerabilities in 2 different router products of Tenda, revealed 36 vulnerabilities and obtained 32 CVEs, which is listed below.
