@@ -1,5 +1,9 @@
 # AHU-IoT-vulnerable
 
+- [Tenda Vulnerabilities](#Tenda Vulnerabilities)
+- [TOTOLINK Vulnerabilities](#TOTOLINK Vulnerabilities)
+
+## Tenda Vulnerabilities
 In 2024, our team discovered vulnerabilities in 2 different router products of Tenda, revealed 36 vulnerabilities and obtained 32 CVEs, which is listed below.
 
 |     Tenda  Routers     |   Vulnerable  function   |              CVE               | Type  of vulnerability |
@@ -32,6 +36,7 @@ In 2024, our team discovered vulnerabilities in 2 different router products of T
 |                        |      fromAdvSetWan       |         CVE-2024-42986         |    Buffer Overflow     |
 |                        |     fromPptpUserAdd      |         CVE-2024-42987         |    Buffer Overflow     |
 
+## TOTOLINK Vulnerabilities
 In 2024, our team discovered vulnerabilities in 3 different router products of TOTOLINK, revealed 6 vulnerabilities and obtained 4 CVEs, which is listed below.
 
 |       TOTOLINK Routers        |    Vulnerable  function    |      CVE       |  Type  of vulnerability  |
