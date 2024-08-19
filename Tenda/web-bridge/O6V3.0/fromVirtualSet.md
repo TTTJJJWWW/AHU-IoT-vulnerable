@@ -10,7 +10,7 @@ O6 V3.0 V1.0.0.7(2054)
 
 In the O6 V3.0 V1.0.0.7(2054) firmware has a stack overflow vulnerability in the `fromVirtualSet` function. The `v2, v3, v4, v6` variable receives the `ip, localPort, publicPort, app` parameters from a POST request. However, since the user can control the input of these parameters, the statement `sprintf((char *)v26, "0;%s;%s;%s;%s;%s;%s", v4, v3, v2, (const char *)v27, "1", v6);` can cause a buffer overflow. The user-provided  `ip, localPort, publicPort, app` can exceed the capacity of the `v26` array, triggering this security vulnerability.
 
-![image-20240801132435207](C:\Users\杨浩然\AppData\Roaming\Typora\typora-user-images\image-20240801132435207.png)
+![image-20240801132435207](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240801132435207.png)
 
 ![image-20240801132425406](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240801132425406.png)
 
