@@ -8,7 +8,7 @@ G3V3.0 V15.11.0.20
 
 ## Vulnerability details
 
-The Tenda G3V3.0 V15.11.0.20 firmware has a stack overflow vulnerability in the `formSetDebugCfg` function. The `pEnable, pLevel, pModule` variable receives the `enable, level, module  ` parameter from a POST request. However, since the user can control the input of `enable, level, module`, the statement
+The Tenda G3V3.0 V15.11.0.20 firmware has a stack overflow vulnerability in the `formSetDebugCfg` function. The `pEnable, pLevel, pModule` variable receives the `enable, level, module` parameter from a POST request. However, since the user can control the input of `enable, level, module`, the statement
 
 ```c
 sprintf(
