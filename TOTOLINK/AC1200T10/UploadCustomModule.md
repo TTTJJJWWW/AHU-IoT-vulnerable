@@ -9,7 +9,7 @@ T10 V2_Firmware V2_V4.1.8cu.5207
 
 ## Vulnerability details
 
-In the T10 V2_Firmware V2_V4.1.8cu.5207 firmware a buffer overflow vulnerability in the `UploadCustomModule ` function. The `v8` variable receives the `File` parameter from a POST request. However, since the user can control the input of `File`, the `strcpy(v15, v8);` can cause a buffer overflow vulnerability.
+In the T10 V2_Firmware V2_V4.1.8cu.5207 firmware a buffer overflow vulnerability in the `UploadCustomModule` function. The `v8` variable receives the `File` parameter from a POST request. However, since the user can control the input of `File`, the `strcpy(v15, v8);` can cause a buffer overflow vulnerability.
 
 ![image-20240902135434834](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240902135434834.png)
 
