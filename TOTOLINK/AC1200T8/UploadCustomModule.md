@@ -9,7 +9,7 @@ T8_Firmware V4.1.5cu.861_B20230220
 
 ## Vulnerability details
 
-In the T8_Firmware V4.1.5cu.861_B20230220 firmware a buffer overflow vulnerability in the `UploadCustomModule ` function. The `v8` variable receives the `File` parameter from a POST request. However, since the user can control the input of `File`, the `strcpy(v15, v8);` can cause a buffer overflow vulnerability.
+In the T8_Firmware V4.1.5cu.861_B20230220 firmware a buffer overflow vulnerability in the `UploadCustomModule` function. The `v8` variable receives the `File` parameter from a POST request. However, since the user can control the input of `File`, the `strcpy(v15, v8);` can cause a buffer overflow vulnerability.
 
 ![image-20240902135434834](https://raw.githubusercontent.com/abcdefg-png/images2/main/image-20240902135434834.png)
 
