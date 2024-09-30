@@ -45,7 +45,7 @@ In 2024, our team discovered vulnerabilities in 6 different router products of T
 |                        |      formSetSysTime      |         CVE-2024-8225          |    Buffer Overflow    |
 
 ## TOTOLINK Vulnerabilities
-In 2024, our team discovered vulnerabilities in 3 different router products of TOTOLINK, revealed 6 vulnerabilities and obtained 4 CVEs, which is listed below.
+In 2024, our team discovered vulnerabilities in 4 different router products of TOTOLINK, revealed 6 vulnerabilities and obtained 6 CVEs, which is listed below.
 
 |       TOTOLINK Routers        |    Vulnerable  function    |      CVE       |  Type  of vulnerability  |
 | :---------------------------: | :------------------------: | :------------: | :----------------------: |
@@ -53,4 +53,6 @@ In 2024, our team discovered vulnerabilities in 3 different router products of T
 |                               |      setParentalRules      | CVE-2024-7333  |     Buffer Overflow      |
 | LR350 V9.3.5u.6369_B20220309  | /cgi-bin/ExportSettings.sh | CVE-2024-42967 | Incorrect access control |
 | EX1200L 9.3.5u.6146_B20201023 |     UploadCustomModule     | CVE-2024-7334  |     Buffer Overflow      |
+|AC1200 T8 v4.1.5cu.861_B20230220|        setWizardCfg       | CVE-2024-46419 |     Buffer Overflow      |
+|                               |     UploadCustomModule     | CVE-2024-46424 |     Buffer Overflow      |
 
